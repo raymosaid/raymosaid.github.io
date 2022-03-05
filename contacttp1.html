@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT TP1 - Mohammad Ray Mosaid</title>
+    <link rel="stylesheet" href="stylecontact.css" />
+  </head>
+
+  <body>
+    <div id="header">
+      <a href="hometp1.html">
+        <img class="pslogo"
+              src="PSlogo.png"
+              alt="PlayStation logo"/></a>
+      <h1>PlayStation</h1>
+    </div>
+
+    <div id="navbar">
+      <a href="hometp1.html">HOME</a>
+      <a href="catalogtp1.html">CATALOG</a>
+      <a href="contacttp1.html">CONTACT</a>
+    </div>
+
+    
+    <div id="page3">
+        <div class="profile">
+          <h2>Profile</h2>
+          <img class="profpict"
+                src="profpict.jpg"
+                alt="profpict"/>
+          <p>Name  : Mohammad Ray Mosaid</p>
+          <p>NIM   : 2004942</p>
+          <p>Gender: Male</p>
+          <p>Email : mohammadray666@upi.edu</p>
+        </div>
+
+        <form action="response.html" method="post">
+            <legend>Name</legend>
+            <input type="text" value="Enter your name here" required>
+            <legend>Country</legend>
+            <select id="country" name="name" required>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Korea">Korea</option>
+                <option value="Japan">Japan</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <legend>Message:</legend>
+            <textarea id="message" name="message" rows="3" cols="50" required></textarea>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+
+    <div id="footer">
+      <h1>Praktikum Desain dan Pemrograman Web</h1>
+    </div>
+  </body>
+</html>

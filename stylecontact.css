@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pslogo{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    background-color: #0226fd;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #3552FD;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#navbar a:hover {
+    background: #6279f9;
+    color: white;
+}
+
+#page3>.profile>.profpict{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page3>.profile{
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+#page3>form, #page3>.profile{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#page3>.profile, #page3>form{
+    padding: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    margin-right: 30px;
+    box-shadow: 0px 3px 5px silver;
+}
+
+#page3>form{
+    float: left;
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #0226fd;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+input[type=submit]:hover {
+    background-color: #2141f8;
+}
+  
+#footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #0226fd;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    font-weight: lighter;
+}

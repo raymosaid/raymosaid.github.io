@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: blue;
+    font-size: 23px;
+}
+
+h3{
+    color: blue;
+    font-size: 17px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.pslogo{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    background-color: #0226fd;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #3552FD;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#navbar a:hover {
+    background: #6279f9;
+    color: white;
+}
+
+#page2>.catalog>.PS2>p, #page2>.catalog>.PS1>p, #page2>.catalog>.PS5>p{
+    margin-left: 18px;
+}
+
+#page2>.profile>.profpict{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page2>.profile{
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+#page2>.catalog, #page2>.profile{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#page2>.profile, #page2>.catalog{
+    padding: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    margin-right: 30px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#page2>.catalog{
+    float: left;
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#page2>.catalog>.PS2>.ps2, #page2>.catalog>.PS1>.ps1, #page2>.catalog>.PS5>.ps5{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #0226fd;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    font-weight: lighter;
+}
